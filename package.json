@@ -1,0 +1,36 @@
+{
+  "name": "pdf-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node generator.js",
+    "dev": "nodemon generator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.4.2",
+    "node-modules": "^1.0.1",
+    "nodemon": "^3.0.1",
+    "pdf-image": "^2.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdf2image": "^1.2.3",
+    "pdf2img": "^0.5.0",
+    "pdf2pic": "^3.1.3",
+    "pdfjs-dist": "^4.10.38",
+    "puppeteer": "^23.11.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5",
+    "stream": "^0.0.2"
+  }
+}
